@@ -1,9 +1,9 @@
 // src/App.tsx
-import { Routes, Route } from "react-router-dom";
-import Login from "./pages/auth/Login";
-import Dashboard from "./pages/dashboard/Dashboard";
-import Layout from "./components/layout/Layout";
-import { useAuth } from "./hooks/useAuth";
+import { Routes, Route } from 'react-router-dom';
+import { useAuth } from './hooks/useAuth';
+import Layout from './components/layout/Layout';
+import Dashboard from './pages/dashboard/Dashboard';
+import Login from './pages/auth/Login';
 
 function App() {
   const { loading } = useAuth();
